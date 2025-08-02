@@ -3,14 +3,14 @@ public class Date {
     private int month;
     private int day;
 
-    // constructor
+    // default constructor
     public Date(int year, int month, int day) {
         this.year = year; // this year is from private int year = int year in date)
         this.month = month;
         this.day = day;
     }
 
-    // setter ไส้กำหนดค่า attribute
+    // setter ใช้กำหนดค่า attribute
     // getter ส่งค่าคืนกลับให้กับ object
     public int getYear() {
         return this.year;
